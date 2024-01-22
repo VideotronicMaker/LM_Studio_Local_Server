@@ -105,9 +105,9 @@ if __name__ == "__main__":
     openai.api_key = os.getenv("OPENAI_API_KEY", "not-needed")
 
     # Read system message from file
-    system_message = read_file_content("spark_custom_instructions.txt")
+    system_message = read_file_content("system_message.txt")
 
     if system_message:
         user_chatbot_conversation(system_message)
     else:
-        print("System message not found. Please check the 'sparkle_custom_instructions.txt' file.")
+        print("System message not found. Please check the 'system_message.txt' file.")
