@@ -24,7 +24,7 @@ Navigate to the project directory and install the required packages using the pr
 
         `pip install -r requirements.txt`
 
-## Clone the repository
+### Clone the repository
         'git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git'
 '
 
@@ -39,6 +39,9 @@ Navigate to the project directory and install the required packages using the pr
 
     Make sure system_message.txt is in the same directory as llm.py, or update the script to point to its location.
 
+
+## Need More Help?
+    If you're unfamiliar with using the command line for tasks like navigating directories, creating folders, or managing Python environments, tools like ChatGPT or Gemini Pro can provide step-by-step guidance on these processes.
 
     
 ```python
