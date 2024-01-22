@@ -17,15 +17,14 @@ Replace "myenv" with your preferred environment name.
 
     3. Activate the Environment:
         conda activate myenv
+
+### Clone the repository
+        git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
     
     4. Install Required Packages:
     
 Navigate to the project directory and install the required packages using the provided requirements.txt file:
         pip install -r requirements.txt
-
-### Clone the repository
-        git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
-'
 
 ### Running the Project
     LLM Python Script (llm.py): This is the main script for running the language model.
