@@ -43,21 +43,3 @@ Navigate to the project directory and install the required packages using the pr
 ## Need More Help?
     If you're unfamiliar with using the command line for tasks like navigating directories, creating folders, or managing Python environments, tools like ChatGPT or Gemini Pro can provide step-by-step guidance on these processes.
 
-    
-```python
-# Example Python code
-def example_function():
-    return "Hello, World!"
-```
-
-```
-```javascript
-// Example JavaScript code
-function exampleFunction() {
-    return "Hello, World!";
-}
-```
-
-```
-
-
