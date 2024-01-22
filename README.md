@@ -3,9 +3,9 @@ This will show you how to run a local server on LM Studio.  You will not need an
 ## Getting Started
 Follow these steps to set up and run the project on your local machine.
 ### Prerequisites
--Anaconda (https://www.anaconda.com/)
+    -Anaconda (https://www.anaconda.com/)
 
--LM Studio (https://lmstudio.ai/)
+    -LM Studio (https://lmstudio.ai/)
 
 ### Setting Up Your Python Environment
     1. Install Anaconda: Download and install Anaconda from the official website. Follow the installation instructions for your operating system.
@@ -21,7 +21,6 @@ Replace "myenv" with your preferred environment name.
     4. Install Required Packages:
     
 Navigate to the project directory and install the required packages using the provided requirements.txt file:
-
         pip install -r requirements.txt
 
 ### Clone the repository
@@ -35,7 +34,7 @@ Navigate to the project directory and install the required packages using the pr
 
     To run the script, use the following command in your terminal or command prompt:
 
-        `python llm.py`
+        python llm.py
 
     Make sure system_message.txt is in the same directory as llm.py, or update the script to point to its location.
 
