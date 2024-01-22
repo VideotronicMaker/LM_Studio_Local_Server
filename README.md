@@ -25,7 +25,8 @@ Navigate to the project directory and install the required packages using the pr
         `pip install -r requirements.txt`
 
 ## Clone the repository
-        'git clone <repository_url>'
+        'git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git'
+'
 
 ### Running the Project
     LLM Python Script (llm.py): This is the main script for running the language model.
