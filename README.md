@@ -11,21 +11,21 @@ Follow these steps to set up and run the project on your local machine.
     1. Install Anaconda: Download and install Anaconda from the official website. Follow the installation instructions for your operating system.
     
     2. Create a New Conda Environment (recommended):
-        `conda create -n myenv python=3.11`
+        conda create -n myenv python=3.11
 
 Replace "myenv" with your preferred environment name.
 
     3. Activate the Environment:
-        `conda activate myenv`
+        conda activate myenv
     
     4. Install Required Packages:
     
 Navigate to the project directory and install the required packages using the provided requirements.txt file:
 
-        `pip install -r requirements.txt`
+        pip install -r requirements.txt
 
 ### Clone the repository
-        'git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git'
+        git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
 '
 
 ### Running the Project
