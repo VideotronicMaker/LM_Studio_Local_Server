@@ -45,5 +45,10 @@ python lmst_ext.py
 ```
 Ensure `system_message.txt` is in the same directory as `lmst_ext.py`, or modify the script to locate it.
 
+## Development Environment Setup
+
+For detailed instructions on setting up and using Visual Studio Code with this project, please see [VSCode Instructions](.vscode/VSCodeSetup.md).
+
+
 ## Need More Help?
 If you're new to using command line interfaces for tasks like navigating directories, creating folders, or managing Python environments, resources like ChatGPT or Gemini Pro can provide detailed, step-by-step guidance.
