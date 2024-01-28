@@ -1,5 +1,5 @@
 # LM_Studio_Local_Server
-This will show you how to run a local server with LM Studio.  You will not need an API key.  This will allow you to run Hugging Face models outside of the chat interface on your PC without an internet connection.  I have added multiple .py files.  There are 6 .py files in total.  Each will allow you to start the local server.  The 2 files that offer the most functionality are the llm.py file and the lmst_ext.py file.  Choose any 1 file to run.  
+This will show you how to run a local server with LM Studio.  You will not need an API key.  This will allow you to run Hugging Face models outside of the chat interface on your PC without an internet connection.  I have added multiple .py files.  There are 3 .py files in total.  Each will allow you to start the local server.  The 2 files that offer the most functionality are the llm.py file and the lmst_ext.py file.  Choose any 1 file to run.  
 ## Getting Started
 Follow these steps to set up and run the project on your local machine.
 ### Prerequisites
