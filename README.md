@@ -36,14 +36,14 @@ git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
    ```
 
 ### Running the Project
-- **LLM Python Script (`llm.py`)**: Main script for the language model.
+- **LLM Python Script (`lmst_ext.py`)**: Main script for the language model.
 - **System Messages File (`system_message.txt`)**: Contains custom instructions or system messages for the model.
 
 To run the script, execute this command in your terminal:
 ```bash
 python lmst_ext.py
 ```
-Ensure `system_message.txt` is in the same directory as `llm.py`, or modify the script to locate it.
+Ensure `system_message.txt` is in the same directory as `lmst_ext.py`, or modify the script to locate it.
 
 ## Need More Help?
 If you're new to using command line interfaces for tasks like navigating directories, creating folders, or managing Python environments, resources like ChatGPT or Gemini Pro can provide detailed, step-by-step guidance.
