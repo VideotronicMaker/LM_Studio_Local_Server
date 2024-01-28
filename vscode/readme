@@ -1,2 +1,0 @@
-In the line ""command": "conda activate python" replace the word "python" with the name of your environment
-Change the name of the folder "vscode" to ".vscode"  Just add a period at the beginning.
