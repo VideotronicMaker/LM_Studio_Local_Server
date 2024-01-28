@@ -1,43 +1,49 @@
 # LM_Studio_Local_Server
-This will show you how to run a local server with LM Studio.  You will not need an API key.  This will allow you to run Hugging Face models outside of the chat interface on your PC without an internet connection.  I have added multiple .py files.  There are 3 .py files in total.  Each will allow you to start the local server.  The 2 files that offer the most functionality are the llm.py file and the lmst_ext.py file.  Choose any 1 file to run.  
-## Getting Started
-Follow these steps to set up and run the project on your local machine.
-### Prerequisites
-    - Anaconda (https://www.anaconda.com/)
 
-    - LM Studio (https://lmstudio.ai/)
+Welcome to the LM Studio Local Server setup guide. This guide will walk you through the process of running a local server with LM Studio, enabling you to use Hugging Face models on your PC without an internet connection and without needing an API key. The repository includes six Python (.py) files. For comprehensive functionality, focus on `lmst_inline.py` and `lmst_ext.py`. You only need to run one of these files to start the local server.
+
+## Getting Started
+Here's how to get the project up and running on your local machine.
+
+### Prerequisites
+- **Anaconda**: Download it from [Anaconda's official site](https://www.anaconda.com/).
+- **LM Studio**: Available at [LM Studio's website](https://lmstudio.ai/).
 
 ### Setting Up Your Python Environment
-    1. Install Anaconda: Download and install Anaconda from the official website. Follow the installation instructions for your operating system.
-    
-    2. Create a New Conda Environment (recommended):
-        conda create -n myenv python=3.11
+1. **Install Anaconda**: Follow the installation instructions for your OS from the Anaconda website.
 
-Replace "myenv" with your preferred environment name.
+2. **Create a New Conda Environment** (recommended):
+   ```bash
+   conda create -n myenv python=3.11
+   ```
+   Replace `myenv` with a name of your choice for the environment.
 
-    3. Activate the Environment:
-        conda activate myenv
+3. **Activate the Environment**:
+   ```bash
+   conda activate myenv
+   ```
 
-### Clone the repository
-        git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
-    
-    4. Install Required Packages:
-    
-Navigate to the project directory and install the required packages using the provided requirements.txt file:
-        pip install -r requirements.txt
+### Clone the Repository
+Clone the LM_Studio_Local_Server repository:
+```bash
+git clone https://github.com/VideotronicMaker/LM_Studio_Local_Server.git
+```
+
+4. **Install Required Packages**:
+   Navigate to the cloned directory and install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Running the Project
-    LLM Python Script (llm.py): This is the main script for running the language model.
+- **LLM Python Script (`llm.py`)**: Main script for the language model.
+- **System Messages File (`system_message.txt`)**: Contains custom instructions or system messages for the model.
 
-    System Messages File (system_message.txt): This file contains custom instructions or system messages for the model's behavior.
-
-    To run the script, use the following command in your terminal or command prompt:
-
-        python llm.py
-
-    Make sure system_message.txt is in the same directory as llm.py, or update the script to point to its location.
-
+To run the script, execute this command in your terminal:
+```bash
+python lmst_ext.py
+```
+Ensure `system_message.txt` is in the same directory as `llm.py`, or modify the script to locate it.
 
 ## Need More Help?
-    If you're unfamiliar with using the command line for tasks like navigating directories, creating folders, or managing Python environments, tools like ChatGPT or Gemini Pro can provide step-by-step guidance on these processes.
-
+If you're new to using command line interfaces for tasks like navigating directories, creating folders, or managing Python environments, resources like ChatGPT or Gemini Pro can provide detailed, step-by-step guidance.
