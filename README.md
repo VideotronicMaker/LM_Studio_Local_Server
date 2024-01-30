@@ -47,8 +47,6 @@ Ensure `system_message.txt` is in the same directory as `lmst_ext.py`, or modify
 
 ## Development Environment Setup
 
-## Development Environment Setup
-
 For detailed instructions on setting up and using Visual Studio Code with this project, please see [VSCode Instructions](VSCodeSetup.md).
 
 
