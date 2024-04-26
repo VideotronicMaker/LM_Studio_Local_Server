@@ -6,6 +6,8 @@ Welcome to the LM Studio Local Server setup guide. This guide will walk you thro
 
 Please note that the method for starting the local server provided in this repository may not work on all systems or operating systems due to variations in dependencies and system configurations. Additionally, changes or updates to the OpenAI Whisper and or Openai libraries may affect the functionality of the code provided here.Users are encouraged to be aware of potential issues and to consult their GPT (Generative Pre-trained Transformer) for assistance when encountering problems. The initial code in this repository was developed with the help of ChatGPT, and users are encouraged to utilize similar resources for troubleshooting and finding solutions to any issues they may encounter.Furthermore, it's important to regularly check and update the requirements.txt file to ensure compatibility with different versions of dependencies.
 
+The code provided by LM Studio may in fact work for some users and users are encouraged to try that as the first option.
+
 ## Getting Started
 Here's how to get the project up and running on your local machine.
 
